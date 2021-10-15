@@ -1,0 +1,5 @@
+package PrimeNumberProxy
+
+class PrimeNumberProxyServer {
+
+}
