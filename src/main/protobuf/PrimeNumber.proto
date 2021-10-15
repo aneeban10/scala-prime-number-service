@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "PrimeNumberProxy";
+option java_package = "PrimeNumber";
 
 service PrimeNumberService {
   rpc getPrimes (PrimeNumberRequest) returns (PrimeNumberReply) {}

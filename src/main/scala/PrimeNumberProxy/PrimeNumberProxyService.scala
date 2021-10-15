@@ -31,7 +31,7 @@ class ProxyRoutes(proxyRegistry: ActorRef[ProxyRouteRegistry.Primes])(implicit v
   private implicit val timeout = Timeout.durationToTimeout(DurationToTimeout)
 
   def getPrimes(limit: Int): Future[PrimeNumberReply] =
-    proxyRegistry.ask(Primes(limit, _)).flatten
+    proxyRegistry.ask(ProxyRouteRegistry.Primes(limit, _)).flatten
 
   val proxyRoutes: Route =
     pathPrefix("prime") {
