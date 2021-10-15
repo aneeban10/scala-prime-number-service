@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "PrimeNumberProxy";
+
+service PrimeNumberService {
+  rpc getPrimes (PrimeNumberRequest) returns (PrimeNumberReply) {}
+}
+
+message PrimeNumberRequest {
+  int32 number = 1;
+}
+
+message PrimeNumberReply {
+  string primeList = 1;
+}
