@@ -9,3 +9,5 @@
 ###0.3 - Added Prime Number service to calculate all prime numbers upto N.
 
 ###0.4 - Added Proxy Service to expose HTTP endpoint over REST.
+
+###0.5 - Bug fixes to address failing to start a server issue.
