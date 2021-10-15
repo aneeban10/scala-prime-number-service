@@ -1,0 +1,5 @@
+package PrimeNumber
+
+class PrimeNumberSpec {
+
+}
