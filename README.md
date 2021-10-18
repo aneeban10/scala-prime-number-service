@@ -35,6 +35,7 @@ The reply could be expanded into two fields: one being a list of integers and ot
 
 ## version changes
 
+### 0.6 - Added scala.yml checks.
 ### 0.5 - Bug fix to address failing to start a server issue.
 ### 0.4 - Added Proxy Service to expose HTTP endpoint over REST.
 ### 0.3 - Added Prime Number service to calculate all prime numbers upto N.
